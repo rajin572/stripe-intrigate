@@ -1,0 +1,44 @@
+{
+  "name": "stripe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:agenda": "node ./src/agenda/agenda.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/nextjs-registry": "^1.0.1",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.5.0",
+    "agenda": "^5.0.0",
+    "antd": "^5.20.1",
+    "axios": "^1.7.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.9",
+    "mongoose": "^8.9.1",
+    "next": "14.2.5",
+    "nextjs-toploader": "^3.7.15",
+    "nodemailer": "^6.9.16",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-otp-input": "^3.1.1",
+    "sharp": "^0.33.5",
+    "sonner": "^1.5.0",
+    "stripe": "^17.5.0",
+    "swiper": "^11.1.14",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.4.0",
+    "@types/react": "18.3.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
